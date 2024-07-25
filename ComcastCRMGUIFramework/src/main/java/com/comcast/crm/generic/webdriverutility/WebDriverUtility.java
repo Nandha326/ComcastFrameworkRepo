@@ -1,6 +1,7 @@
 package com.comcast.crm.generic.webdriverutility;
 
 import java.io.File;
+import java.io.IOException;
 import java.time.Duration;
 import java.util.Iterator;
 import java.util.Set;
@@ -116,6 +117,4 @@ public class WebDriverUtility {
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript(key,Obj);
 	}
-	
-
 }
