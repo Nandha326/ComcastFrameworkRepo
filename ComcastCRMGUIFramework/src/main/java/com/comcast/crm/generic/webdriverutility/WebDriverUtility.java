@@ -165,7 +165,6 @@ public class WebDriverUtility {
 		}
 		
 	}
-
 	public void JSExecutor(WebDriver driver, String key, String Obj) {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript(key, Obj);
