@@ -18,7 +18,7 @@ import com.comcast.crm.generic.webdriverutility.WebDriverUtility;
 import com.comcast.crm.objectrepositoryutility.Homepage;
 import com.comcast.crm.objectrepositoryutility.Loginpage;
 
-public class BaseClass {	
+public class BaseClass extends WebDriverUtility {	
 	/*Create Object*/
 	public	FileUtility fLib = new FileUtility();
 	public 	ExcelUtility elib = new ExcelUtility();
